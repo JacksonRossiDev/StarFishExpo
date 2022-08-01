@@ -3,6 +3,9 @@
     "name": "firebase",
     "slug": "firebase",
     "version": "1.0.0",
+    "plugins": [
+      "@react-native-firebase/app"
+    ],
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
@@ -18,6 +21,8 @@
       "**/*"
     ],
     "ios": {
+      "bundleIdentifier": "com.starfishtestapp.firebase",
+      "googleServicesFile": "./assets/GoogleService-Info4.plist",
       "supportsTablet": true
     },
     "android": {
